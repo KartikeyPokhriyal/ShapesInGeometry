@@ -23,6 +23,13 @@ public class CircleTest {
     public void shouldReturnPerimeterOfCircleForRadiusOne() {
         Circle circle = new Circle(1.0);
 
-        assertEquals(6.299, circle.calculatePerimeter(), 0.0099999999999998);
+        assertEquals(6.28, circle.calculatePerimeter(), 0.0099999999999998);
+    }
+
+    @Test
+    public void shouldReturnPerimeterOfCircle() {
+        Circle circle = new Circle(3.0);
+
+        assertEquals(18.64, circle.calculatePerimeter(), 0.0099999999999998);
     }
 }
