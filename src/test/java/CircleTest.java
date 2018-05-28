@@ -7,7 +7,7 @@ public class CircleTest {
 
     @Test
     public void shouldReturnAreaOfCircleForRadiusOne() {
-        Circle circle = new Circle(-1.0);
+        Circle circle = new Circle(1.0);
 
         assertEquals(3.14, circle.calculateArea(), 0.001);
     }
@@ -30,6 +30,6 @@ public class CircleTest {
     public void shouldReturnPerimeterOfCircle() {
         Circle circle = new Circle(3.0);
 
-        assertEquals(18.64, circle.calculatePerimeter(), 0.0099999999999998);
+        assertEquals(18.84, circle.calculatePerimeter(), 0.0099999999999998);
     }
 }
