@@ -16,4 +16,8 @@ public class Parallelogram {
     public double calculatePerimeter() {
         return 2 * (base + side);
     }
+
+    public double calculateArea() {
+        return base * height;
+    }
 }
