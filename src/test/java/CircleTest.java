@@ -18,4 +18,11 @@ public class CircleTest {
 
         assertEquals(28.25, circle.calculateArea(), 0.0099999999999998);
     }
+
+    @Test
+    public void shouldReturnPerimeterOfCircleForRadiusOne() {
+        Circle circle = new Circle(1.0);
+
+        assertEquals(6.299, circle.calculatePerimeter(), 0.0099999999999998);
+    }
 }

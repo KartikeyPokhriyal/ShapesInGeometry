@@ -12,4 +12,8 @@ public class Circle {
     public double calculateArea() {
          return PI * radius * radius;
     }
+
+    public double calculatePerimeter() {
+        return 2 * PI * radius;
+    }
 }
